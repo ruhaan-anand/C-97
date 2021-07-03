@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+</html>
+<head>
+	<title>Kwiter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="kwitter-room.js"></script>
+</head>
+
+<body>
+    <button  onclick="logOut()" class = "logout btn btn-danger fa fa-sign-out">Logout</button>
+    <div class="container">
+        <center><h1 class="header">
+            Kwitter <sup>
+             <img src="m2.png" alt="">   
+        </h1>
+
+        <div id="output">
+            
+        </div>
+
+       
+            
+        
+    </center>
+ </div>
+    <center><div id="msg-send-div">
+        <label style="font-size: 20px;" >Send your message here </label>
+        <br>
+    <input id = "msg" type="text" placeholder="Message" class="form-control">
+    <br>
+    <button onclick="send()" id="send" class="btn btn-success">Send</button>
+    
+</div>
+    </center>
+    
+    <script src="kwitter-page.js"></script>
+</body>

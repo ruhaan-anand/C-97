@@ -1,0 +1,65 @@
+body{
+    background-color: cyan;
+}
+#login-div{
+    background-color: whitesmoke;
+    margin-top: 20px;
+    padding: 10px;
+    width: 600px;
+    border-radius: 20px;
+}
+.header{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 50px;
+}
+.header img{
+    width: 80px;
+}
+#login-div img{
+    width: 80px;
+}
+#login-div button{
+    width: 500px;
+    font-size: 20px;
+}
+#add-room{
+    font-size: 20px;
+    width: 500px;
+}
+#TR-heading{
+    color: whitesmoke;
+}
+.room{
+    background-color: whitesmoke;
+    font-size: 20px;
+    cursor: pointer;
+}
+#trending-rooms{
+    width : 500px;
+}
+.logout{
+    font-size: 25px;
+}
+#output{
+   padding: 20px;
+    width: 80%;
+    border-radius: 10px;
+    background: whitesmoke;
+}
+#msg-send-div{
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    margin-left: 10%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
+}
+#send{
+    font-size: 25px;
+    width: 200px;
+}
+.tick-img{
+    width: 20px;
+}
